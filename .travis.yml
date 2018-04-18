@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "9"
+script:
+  - echo "Deploy!!"
+install:
+  - npm install -g firebase-tools
+after_success:
+  - firebase deploy - redcuplive-32cff - token 1/jrWZCDQeoX6fuW5eFqNdbx59c2GZvPK0E9mRn189RIE
