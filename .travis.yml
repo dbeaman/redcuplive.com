@@ -1,9 +1,4 @@
-language: node_js
-node_js:
-  - "9"
-script:
-  - echo "Deploy!!"
-install:
-  - npm install -g firebase-tools
-after_success:
-  - firebase deploy - redcuplive-32cff - token 1/jrWZCDQeoX6fuW5eFqNdbx59c2GZvPK0E9mRn189RIE
+deploy:
+  provider: firebase
+  token:
+    secure: "C53MLpQFAug919IhPjlwMbZjPtfoEXrAULUTQep7LHzmT3j5ead0A349IHPUygUkxV+u4NeTdWMnrAfBLiqGPLHw2YXfXxCeLNxpG1lJzoV4VaQzsOLR4HmruXC95p/D+354PlW5h99neu/1lByhaEx3ITPmZXFZfM53Yo66N4/gDmubA+rvK6Tg4ESaUP5iAzByrS0NzbwgMnv1HUqqt2XVACLdofFHAn9v/3BHZAUuLhGLXHEEtgGSc/zhK0OPYESgRM9J7wCvVKNzJEp5/pQOEeO3CHCgMcG+crGZngRm8IsBU+NpBL3TCJnlvu5y2JmNtYU3Aw6X/LuCax7O/h3aPLGAU3hfUhvnygQ941Qh/RkzxIRnKpow7w+ovEdL22M+wCDVo6HpYXCdqZQhN/XUEvv2kYMvLQw2IYzgueqWVhlaeU3V/E26dWBfvZ4tG5d7iUTMZ8ehP491F1IW27YBYt/CfGz96B58sAXN1/NZmc7/xTMc3LjBMFJdhwp+FJT2+FGj+O+6bT71JAXHGCGYg/cPepWJHWk/R+m3KYAq0KQKSX5jf1ddlia65zHLJNF0amIgHX22bLX/lyi9snaCx3U+gLj7saOOneeOpxeVtY6qLc/eQtM6hnZ6pTrK2LHzoSTJQB5oEKU8b4xV67n3PGKePye7bOM2vEERF+k="
